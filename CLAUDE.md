@@ -1,3 +1,7 @@
-# Claude Code Configuration
+This is the source-of-truth repository for Claude Code configuration.
 
-This repository contains shared Claude Code configuration files.
+When syncing, read the files in this repo and apply them to the appropriate locations:
+- `global/CLAUDE.md` → `~/.claude/CLAUDE.md`
+- `preferences.md` → user preferences and coding conventions to remember
+
+After syncing, confirm what was updated.
