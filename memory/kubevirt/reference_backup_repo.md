@@ -11,4 +11,4 @@ Always sync changes to this repo when modifying Claude config (skills, settings,
 
 The repo has a `backup.sh` script that audits coverage and copies config from `~/.claude/` (user-level) and `~/Work/<repo>/.claude/` (project-level) into the backup repo.
 
-**How to apply:** After making any Claude config changes, run `backup.sh` in the cloned repo, then commit and push.
+**How to apply:** When the user says "sync" the config repo, run `backup.sh` in the cloned repo, then commit and push to GitHub. Always complete the full cycle — sync means push, not just local backup.
