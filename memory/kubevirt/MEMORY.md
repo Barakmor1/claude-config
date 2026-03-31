@@ -1,1 +1,2 @@
 - [Backup repo](reference_backup_repo.md) — Barakmor1/claude-config is the source of truth for all Claude config; always sync changes there
+- [Commit assisted-by](feedback_commit_assisted_by.md) — Always add "Assisted-by: Claude Opus 4.6" before Signed-off-by in commits

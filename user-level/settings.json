@@ -1,8 +1,4 @@
 {
-  "model": "claude-opus-4-6[1m]",
-  "enabledPlugins": {
-    "gopls-lsp@claude-plugins-official": true
-  },
   "permissions": {
     "allow": [
       "Read",
@@ -18,5 +14,18 @@
       "Bash(git branch:*)",
       "Bash(ls :*)"
     ]
+  },
+  "model": "claude-opus-4-6[1m]",
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      }
+    }
   }
 }
